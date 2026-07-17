@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tonny FUT Helper</title>
+  <link rel="stylesheet" href="./css/tonny.css">
+  <link rel="manifest" href="./manifest.json">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img id="logo" src="./img/tonny-logo.svg" alt="Tonny Logo">
+      <h1 class="title">Tonny FUT Helper</h1>
+    </header>
+
+    <main>
+      <section id="objectives" aria-live="polite">
+        <p class="loading">Laster inn FUT‑data...</p>
+      </section>
+
+      <section id="player">
+        <div id="player-card" aria-hidden="true"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./tonny.js" defer></script>
+</body>
+</html>
+

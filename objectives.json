@@ -1,0 +1,25 @@
+{
+  "sets": [
+    {
+      "id": "national_pride_estevao",
+      "name": "National Pride: Estevão",
+      "tasks": [
+        { "group": "Brazilian Five", "label": "Play 1 match" },
+        { "group": "Brazilian Five", "label": "Play 2 matches" },
+        { "group": "Brazilian Five", "label": "Play 3 matches" },
+        { "group": "Last Minute Strike", "label": "Score 1 goal" },
+        { "group": "5 Star Touch", "label": "Play 1 match" },
+        { "group": "Win 8", "label": "Win 1 match" }
+      ]
+    },
+    {
+      "id": "daily_objectives",
+      "name": "Daily Objectives",
+      "tasks": [
+        { "group": "Daily Grind", "label": "Play 1 match" },
+        { "group": "Daily Grind", "label": "Score 3 goals" }
+      ]
+    }
+  ]
+}
+

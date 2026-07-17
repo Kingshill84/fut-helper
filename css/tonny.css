@@ -1,0 +1,78 @@
+:root{
+  --bg:#0a0a0a;
+  --panel:#111;
+  --accent:#00faff;
+  --muted:#222;
+  --text:#e6ffff;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:Inter, Arial, sans-serif;
+  background:linear-gradient(180deg,var(--bg),#050505);
+  color:var(--text);
+}
+
+header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:18px 20px;
+}
+#logo{width:48px;height:48px}
+.title{font-size:20px;margin:0;color:var(--accent)}
+
+main{padding:18px;max-width:980px;margin:0 auto}
+
+.objective-group{
+  background:var(--panel);
+  border:1px solid rgba(0,250,255,0.08);
+  border-radius:10px;
+  padding:12px;
+  margin-bottom:14px;
+}
+
+.objective-title{
+  font-weight:700;
+  color:var(--accent);
+  margin-bottom:8px;
+}
+
+.objective-list{display:flex;flex-direction:column;gap:6px}
+
+.objective-item{
+  display:flex;
+  justify-content:space-between;
+  padding:8px;
+  background:linear-gradient(90deg, rgba(255,255,255,0.01), transparent);
+  border-radius:6px;
+  border:1px solid var(--muted);
+  font-size:14px;
+}
+
+#player-card{
+  width:260px;
+  height:360px;
+  margin:22px auto;
+  border-radius:12px;
+  background-size:cover;
+  background-position:center;
+  box-shadow:0 8px 30px rgba(0,0,0,0.6);
+  position:relative;
+  overflow:hidden;
+}
+
+.card-overlay{
+  position:absolute;
+  left:0;right:0;bottom:0;
+  padding:12px;
+  background:linear-gradient(0deg, rgba(0,0,0,0.6), transparent);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.card-name{font-weight:700}
+.card-rating{background:rgba(0,250,255,0.12);padding:6px 10px;border-radius:8px;color:var(--accent)}
